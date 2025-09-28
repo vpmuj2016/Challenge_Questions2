@@ -28,8 +28,9 @@ else:
 lower = int(input("Enter start of range: "))
 upper = int(input("Enter end of range: "))
 
-print(f"Armstrong numbers between {lower} and {upper} are:")
+print('Armstrong numbers between:', lower, 'and', upper, 'are:')
 
 for number in range(lower, upper + 1):
     if arm_range(number):
         print(number)
+
